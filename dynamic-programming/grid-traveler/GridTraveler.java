@@ -8,6 +8,14 @@ import java.util.function.BiFunction;
 // 3x2 = 3
 // 3x3 = 6
 // 18x18 = 2333606220
+//
+// Brute force
+// O(2^m+n) time
+// O(m+n) space
+//
+// Memoized
+// O(m*n) time
+// O(m+n) space
 
 class GridTraveler {
 
